@@ -14,9 +14,15 @@ main{
 }
 
 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.container-img{
+    margin-bottom: 24px;
     max-width: 288px;
     max-height: 288px;
-    border-radius: 10px;
 }
 
 h1{
@@ -42,6 +48,7 @@ p{
     background-color: white;
     border-radius: 20px;
     padding: 16px 16px 40px 16px;
+    box-shadow: 0 20px 40px #0003;
     
 }
 
@@ -49,16 +56,13 @@ body{
     background-color: var(--Slate-300);
 }
 
-.container-img{
-    margin-bottom: 24px;
-}
+
 
 .container-text{
     text-align: center;
     max-width: 288px;
     max-height: 131px;
     padding: 0 16px 0 16px;
-    margin-bottom: 40px;
 }
 
 .container-text h1{
